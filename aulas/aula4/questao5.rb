@@ -1,0 +1,1 @@
+puts (1..60).to_a.shuffle[0..5]
