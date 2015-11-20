@@ -1,4 +1,8 @@
+$global = 'variavel global'
+
 class Person
+	@@variavel_classe = 'variavel de classe'
+
 	attr_accessor :first_name, :last_name, :birth_date
 
 	def initialize(first_name='', last_name='', birth_date)
@@ -22,5 +26,8 @@ class Person
 			e
 		end		
 		
-	end	
+	end
+
+	def instancia
+	end
 end
