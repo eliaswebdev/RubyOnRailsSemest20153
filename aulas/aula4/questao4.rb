@@ -1,7 +1,9 @@
 vetor = [0,5,1,4,2,7,8,3,6]
 vreverse = vetor.reverse
 i = 8
-while i >= 4  do
+
+# while i >= 5  do
+8.downto(5) do
 	aux = vetor[i]
 	vetor[i] = vetor[8 - i + 1]
 	vetor[8 - i + 1] = aux
